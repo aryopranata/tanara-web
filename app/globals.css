@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tanara-brown: #5d4037;
+  --tanara-sand: #f4e1c1;
+  --tanara-earth: #8d6e63;
+  --tanara-sky: #90caf9;
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+body {
+  color: var(--tanara-brown);
+  background-color: var(--tanara-sand);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  color: var(--tanara-brown);
+}
